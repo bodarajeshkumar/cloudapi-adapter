@@ -5,8 +5,8 @@ Object.keys(vpcJson.paths).forEach(function(path) {
 			console.log(vpcJson.paths[path][operation].operationId);
 			console.log(vpcJson.paths[path][operation].summary);
 	let apiDetails = vpcJson.paths[path][operation];
-	let output:any = {};
-	let codeSnippet:any = {};
+	let output = {};
+	let codeSnippet = {};
 	output.apiName = apiDetails.operationId;
 	output.description = apiDetails.description;
 	output.title = apiDetails.title;
