@@ -1,6 +1,6 @@
 Object.keys(vpcJson.paths).forEach(function(path) {
 	Object.keys(vpcJson.paths[path]).forEach(function(operation){
-		if(vpcJson.paths[path][operation].tags && vpcJson.paths[path][operation].tags.includes("VPCs")>0)
+		if(vpcJson.paths[path][operation].tags && vpcJson.paths[path][operation].tags.includes("Instance groups")>0)
 		{
 			console.log(vpcJson.paths[path][operation].operationId);
 			console.log(vpcJson.paths[path][operation].summary);
