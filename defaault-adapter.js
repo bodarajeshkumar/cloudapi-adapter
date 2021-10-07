@@ -17,8 +17,8 @@ var allCodeSnippets = [];
         output.codeSnippets.push(codeSnippet);
         allCodeSnippets.push(output);
         finalJson.allApis = allCodeSnippets;
-        finalJson.requiredSDKs = [];
-        finalJson.requiredSDKs.push("ibm-vpc>=0.7.0");
+        finalJson.requiredSDK = [];
+        finalJson.requiredSDK.push("ibm-vpc>=0.7.0");
       }
     });
   });
